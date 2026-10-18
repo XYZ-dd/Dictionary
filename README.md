@@ -1,1 +1,1 @@
-Dictionary APP for Huawei Litewearable devices
+A Dictionary APP for Huawei Litewearable devices

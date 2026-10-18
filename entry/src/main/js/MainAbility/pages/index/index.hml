@@ -1,0 +1,11 @@
+<div class="container" @swipe="onSwipe">
+    <div class="search-box">
+        <input class="search-input" type="text" placeholder="输入单词查询" onchange="onInputChange"></input>
+    </div>
+    <div class="search-icon">
+        <input class="search-button" type="button" value="Search" onclick="ClickAction"></input>
+    </div>
+    <div class="toast-wrapper" if="{{ showToast }}">
+        <text class="toast-text">{{ toastMessage }}</text>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="container" @swipe="onSwipe">
+    <text class="word">{{ showWord }}</text>
+    <list class="scroll-list" ref="listObj">
+        <list-item class="list-item" for="{{dataList}}" style="height: {{ $item.height }}px;">
+            <text class="item-text">{{$item.text}}</text>
+        </list-item>
+    </list>
+    <!--
+    <text class="explanation">{{ explanation }}</text>
+    -->
+</div>

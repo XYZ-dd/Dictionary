@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "离线英汉翻译词典，包含音标等多种信息，覆盖3.6w+词汇"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "腕上词典"
+    }
+  ]
+}
